@@ -1,0 +1,56 @@
+td{
+    width: 100px; height: 100px;
+}
+
+
+.roxo{
+    background-color: purple;
+}
+.laranja{
+    background-color: orange;
+}
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.rosa{
+    background-color: pink;
+    transition:500ms;
+}
+
+#-preto{
+    background-color: black;
+    transition: 500ms;
+}
+
+#-preto:hover{
+    background-color: black;
+width:120px;
+transition:1s;
+border : 10px solid blueviolet
+}
+
+.rosa:hover{
+    background-color: pink;
+    width:120px;
+    transition:1s;
+    border : 10px solid blueviolet
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

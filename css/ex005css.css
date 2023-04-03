@@ -1,0 +1,36 @@
+.sub-titulo{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 255), 0 0 5px rgb(0, 0, 255);
+    color:white
+}
+.título{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    background-color: rgb(2, 255, 2);
+    }
+    .p-vermelho{
+        color: brown;
+        font-family: 'Fredoka One', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lagosta', cursive;
+
+    }
+    .p-amarelo{
+        color: rgb(182, 182, 86);
+        text-align:center ;
+        font-family: 'Fredoka One', cursive;
+        
+    }
+    .p-verde{
+        color: green;
+        text-align: right;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Lobster', cursive;
+    }
+    body{
+        background-color: rgb(96, 168, 96);
+    }
+    

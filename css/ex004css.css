@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+color:white
+}
+.fonte-google{
+    font-family: 'Lobster', cursive;
+}
+
+.fonte-padrão{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'letra bonita';
+    src: url(../letra\ bonita.ttf);
+}
+
+.fonte-local{
+    font-family: 'letra bonita';
+}
+
+.fonte-andradina{
+    font-family: 'Fredoka One', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

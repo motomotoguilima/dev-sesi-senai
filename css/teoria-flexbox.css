@@ -1,0 +1,99 @@
+/* FLEX 1- ROW EM LINHA */
+.flex-1{
+    background-color: lightgray;
+    /* alterando o display da div para o tipo flex para ficar mais facil 
+    estilizar as posicoes dos elementos filhos- por padrao o alinhamento e em linha ROW */
+    display: flex;
+}
+
+/*flex- column em linha*/
+.flex-coluna{
+    background-color: lightgray;
+padding: 20px;
+margin-top: 20px;
+display: flex;
+/* o flex direction altera a disposição dos elemntos 
+para o tipo de coluna colocando um embaixo do outro*/
+flex-direction: column;
+
+}
+.wrap{
+    background-color: rgb(20, 12, 12);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* o flex wrap quebra os elementos em uma nova linha quando nao cabem*/
+    flex-wrap: wrap;
+}
+.wrap > img {
+width: 200px;
+margin: 10px;
+}
+/* flex 4 - centralizandono x*/
+.centralizar-x{
+    background-color: rgb(20, 12, 12);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* centralizar horizontalmente*/
+    justify-content: center;
+}
+.space-around{
+    background-color: rgb(20, 12, 12);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* alinhando os intens com espaçamento */
+    justify-content: space-around;
+}
+
+.space-between{
+    background-color: rgb(20, 12, 12);
+    
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* alinhando os intens com espaçamento */
+    justify-content: space-between;
+}
+
+.flex-end{
+    background-color: rgb(20, 12, 12);
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* alinhando os intens no final da div */
+    justify-content: flex-end;
+}
+.teste{
+    display: inline-block;
+    background-color: rebeccapurple;
+}
+
+.centralizar-y{
+    background-color: rgb(20, 12, 12);
+    margin-top: 20px;
+    display: flex;
+    /* alinhando os intens ao centro verticalmente  */
+    justify-content: center;
+    height: 800px;
+   align-items: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

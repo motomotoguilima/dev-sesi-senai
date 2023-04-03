@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+.div-1{
+    text-align: center;
+    border: solid black;
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 400px;
+    box-shadow: 10px -5px 10px rgb(163, 157, 157);
+    height: 300px;
+    margin-top: 80px;
+     background-color: chocolate;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    
+}
+.input{
+    border: black ;
+    border-radius: 10px 10px 10px 10px;
+    height: 25px;
+    width: 15;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 5px gray;
+
+}
+.fundo{
+   background-color: purple;
+
+}
+
+.botao{
+border-radius: 10px 10px 10px 10px;
+margin-bottom: 30px;
+}
+.imagem{
+    width: 500px;
+    height: 300px;
+    
+}

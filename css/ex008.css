@@ -1,0 +1,47 @@
+.borda{
+    border:1px solid rgb(0, 0, 0);
+    }
+    .linha-de-baixo{
+        border-bottom: 2px solid red;
+    }
+    .borda-arredondada{
+        border:1px solid rgb(47, 128, 74);
+        border-radius: 10px ;
+    }
+    .borda-grossa-na-left{
+        border-left: 4px solid blue;
+        background-color: aqua;
+    }
+    .borda-emcima{
+       border-top: 1px dotted black ;
+        }
+    .borda-mesclada{
+        border-top: 4px solid  rgb(171, 187, 26);
+        border-bottom: 4px dotted red;
+        border-left: 4px double green;
+        border-right: 4px dotted blue ;
+    }
+
+    .imagem-arredondada{
+        height: 150px;
+        width: 250px;
+        border-radius: 15px;
+    }
+.imagem-circular{
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+}
+    .imagem-dentro-da-outra{
+        width: 500px;
+        height: 500px;
+        border-radius: 100px;
+        background: linear-gradient(-45deg, #00f, #ff0000) border-box;
+        border: 7px solid transparent;
+    }
+.borda-mista{
+  height: 200px;
+   width : 300px;
+    border-radius : 60px 0px 60px 0px;
+        }
+        
