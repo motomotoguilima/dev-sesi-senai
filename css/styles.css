@@ -1,207 +1,247 @@
-body{
-    background-color: rgb(255, 255, 255); /* Alterando cor de fundo do body */
+body {
+    background-color: rgb(255, 255, 255);
+    /* Alterando cor de fundo do body */
     background-image: url(../img/kiss-love.gif);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
 }
 
-h1{
-    text-align: center; /* centralizando h1 utlizando texto-aling center no meio da tela do body */
+:root {
+    --preto: black;
 }
 
-p{
-    color:rgb(38, 5, 226) /* alterando a cor do paragrafo*/
+h1 {
+    text-align: center;
+    /* centralizando h1 utlizando texto-aling center no meio da tela do body */
 }
 
-img{
-    width: 200px; /* aumentando a largura da imagem */
-    height:100px; /* aumentando o comprimento da imagem */
-}
- h2{
-    font-size: 20px; /* Alterando o tamanho da fonte */
-     background-color:antiquewhite /*cor de fundo da palavra */
- }
-
-h3{
-    text-align: right; /*colocando texto do lado direito*/
-    font-size: 18px; /* alterando o tamanho da letra */
-    color: rgb(0, 0, 0); /*alterando cor da letra*/
-    background-color: blue; /* colocando cor de fundo da letra*/
+p {
+    color: rgb(38, 5, 226)
+        /* alterando a cor do paragrafo*/
 }
 
-.p-vermelho{
-    color: brown; /*seletor class, pode ter varios,começa com . */
-}
-.p-amarelo{
-    color: yellow; /*seletor class, pode ter varios,começa com . */
-}
-#p-verde{ 
-    color: green; /* seleto de id UNICO começa com # */
+img {
+    width: 200px;
+    /* aumentando a largura da imagem */
+    height: 100px;
+    /* aumentando o comprimento da imagem */
 }
 
-.p-vermelho{
-    color: brown; /*seletor class, pode ter varios,começa com . */
+h2 {
+    font-size: 20px;
+    /* Alterando o tamanho da fonte */
+    background-color: antiquewhite
+        /*cor de fundo da palavra */
 }
 
-.p-vermelho:hover{ /*hover altera as prioridades quando passo o meu mause*/
-    color: rgb(255, 255, 255); 
+h3 {
+    text-align: right;
+    /*colocando texto do lado direito*/
+    font-size: 18px;
+    /* alterando o tamanho da letra */
+    color: rgb(0, 0, 0);
+    /*alterando cor da letra*/
+    background-color: blue;
+    /* colocando cor de fundo da letra*/
+}
+
+.p-vermelho {
+    color: brown;
+    /*seletor class, pode ter varios,começa com . */
+}
+
+.p-amarelo {
+    color: yellow;
+    /*seletor class, pode ter varios,começa com . */
+}
+
+#p-verde {
+    color: green;
+    /* seleto de id UNICO começa com # */
+}
+
+.p-vermelho {
+    color: brown;
+    /*seletor class, pode ter varios,começa com . */
+}
+
+.p-vermelho:hover {
+    /*hover altera as prioridades quando passo o meu mause*/
+    color: rgb(255, 255, 255);
     background-color: red;
 }
 
-.font-courier-new{ /*alterando a fonte de um texto*/
-    font-family:'Courier New', Courier, monospace;
+.font-courier-new {
+    /*alterando a fonte de um texto*/
+    font-family: 'Courier New', Courier, monospace;
 }
-.sombreado{ /*text-shadow colocando sombreado no texto eixo x. eixoy, esfumaçado, cor*/
+
+.sombreado {
+    /*text-shadow colocando sombreado no texto eixo x. eixoy, esfumaçado, cor*/
     text-shadow: 10px -10px 0px gray;
 }
 
 /* Declarando a fonte baixada, o nome e o caminho da fonte 
     o .. volta uma pasta para buscar o arquivo*/
-    @font-face {
-        font-family: 'Fonte Velho Oeste';
-        src: url(../velhooeste2.ttf);
-    }
+@font-face {
+    font-family: 'Fonte Velho Oeste';
+    src: url(../velhooeste2.ttf);
+}
 
-    .fonte-google{
-        /* Colocar o nome da fonte que o Google pede no site fonts.google.com */
-        font-family: 'Climate Crisis', cursive;
-    }
-    .fonte-local{
-        /* Colocando o nome da fonte que nós colocamos no @font-face */
-        font-family: 'Fonte Velho Oeste';
-    }
+.fonte-google {
+    /* Colocar o nome da fonte que o Google pede no site fonts.google.com */
+    font-family: 'Climate Crisis', cursive;
+}
 
-.opacidade{
+.fonte-local {
+    /* Colocando o nome da fonte que nós colocamos no @font-face */
+    font-family: 'Fonte Velho Oeste';
+}
+
+.opacidade {
     background-color: green;
-    opacity: 0.3; /* nivel de opacidade de todos os elementos */
-}
-.opacidade-rgba{
-    background-color: rgb(0, 128, 0, 0.3); /* opacidade do fundo */
-
+    opacity: 0.3;
+    /* nivel de opacidade de todos os elementos */
 }
 
+.opacidade-rgba {
+    background-color: rgb(0, 128, 0, 0.3);
+    /* opacidade do fundo */
 
-.fundo-imagem{
+}
+
+
+.fundo-imagem {
     height: 400px;
     /* fundo do elemento com imagem*/
     background-image: url(../img/kiss-love.gif);
     /* esta prioridade "estica" a imagem pra todo espaço */
     background-size: contain;
 }
-.fundo-imagem-dinamica{
-    height: 10000px;
-background: url(https://source.unsplash.com/1920x2400?hdr,love);
-}
-.borda{
-    border:2px solid red;
-    border-radius: 10px ;
-}
-.borda{
-    border:1px solid rgb(0, 0, 0);
-    }
-    .linha-de-baixo{ /* deixa uma linha em baixo*/
-        border-bottom: 2px solid red;
-    }
-    .borda-arredondada{
-        border:1px solid rgb(47, 128, 74);
-        border-radius: 10px ;
-    }
-    .borda-grossa-na-left{ /* deixa a borda grossa na esquerda*/
-        border-left: 4px solid blue;
-        background-color: aqua;
-    }
-    .borda-emcima{ /* borda so em cima */
-       border-top: 1px dotted black ;
-        }
-    .borda-mesclada{ /* borda pontilhada,duplicada e reta normal*/
-        border-top: 4px solid  rgb(171, 187, 26);
-        border-bottom: 4px dotted red;
-        border-left: 4px double green;
-        border-right: 4px dotted blue ;
-    }
 
-    .imagem-arredondada{ /* deixa a ponta da borda redonda*/
-        height: 150px;
-        width: 250px;
-        border-radius: 15px;
-    }
-.imagem-circular{/* deixa circular */
+.fundo-imagem-dinamica {
+    height: 10000px;
+    background: url(https://source.unsplash.com/1920x2400?hdr,love);
+}
+
+.borda {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.borda {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.linha-de-baixo {
+    /* deixa uma linha em baixo*/
+    border-bottom: 2px solid red;
+}
+
+.borda-arredondada {
+    border: 1px solid rgb(47, 128, 74);
+    border-radius: 10px;
+}
+
+.borda-grossa-na-left {
+    /* deixa a borda grossa na esquerda*/
+    border-left: 4px solid blue;
+    background-color: aqua;
+}
+
+.borda-emcima {
+    /* borda so em cima */
+    border-top: 1px dotted black;
+}
+
+.borda-mesclada {
+    /* borda pontilhada,duplicada e reta normal*/
+    border-top: 4px solid rgb(171, 187, 26);
+    border-bottom: 4px dotted red;
+    border-left: 4px double green;
+    border-right: 4px dotted blue;
+}
+
+.imagem-arredondada {
+    /* deixa a ponta da borda redonda*/
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.imagem-circular {
+    /* deixa circular */
     height: 250px;
     width: 250px;
     border-radius: 1000px;
 }
-    .imagem-dentro-da-outra{ /* deixa a borda com borda */
-        width: 500px;
-        height: 500px;
-        border-radius: 100px;
-        background: linear-gradient(-45deg, #00f, #ff0000) border-box;
-        border: 7px solid transparent;
-    }
-.borda-mista{ /* pode escolher qualquer ponta para deixar redonda ou quadrada */
-  height: 200px;
-   width : 300px;
-    border-radius : 60px 0px 60px 0px;
-        }
-        
-        .div1{
-            border: 1px solid black;
-            background-color: lightcyan;
-        }
-        .div2{
-            border: 1px solid rgb(167, 63, 63);
-            background-color: rgb(50, 163, 163);
-            text-align: right;
-        }
-        
-.div-margin{
+
+.imagem-dentro-da-outra {
+    /* deixa a borda com borda */
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    background: linear-gradient(-45deg, #00f, #ff0000) border-box;
+    border: 7px solid transparent;
+}
+
+.borda-mista {
+    /* pode escolher qualquer ponta para deixar redonda ou quadrada */
+    height: 200px;
+    width: 300px;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.div1 {
+    border: 1px solid black;
+    background-color: lightcyan;
+}
+
+.div2 {
+    border: 1px solid rgb(167, 63, 63);
+    background-color: rgb(50, 163, 163);
+    text-align: right;
+}
+
+.div-margin {
     background-color: rgb(108, 144, 211);
     margin: 20px 50px 10px 0px;
 
 }
 
-    .div-centralizada{
-        background-color: darkmagenta;
-width: 150px; /* definindo uma largura*/
-margin: 0 auto; /* centralizando um elemento de bloco*/
+.div-centralizada {
+    background-color: darkmagenta;
+    width: 150px;
+    /* definindo uma largura*/
+    margin: 0 auto;
+    /* centralizando um elemento de bloco*/
 }
 
-.div-padding{
+.div-padding {
     background-color: green;
-    padding: 20px   ; /* define o espaçamento interno do elemento */
+    padding: 20px;
+    /* define o espaçamento interno do elemento */
 }
-.div-completa{
+
+.div-completa {
     background-color: rgb(108, 144, 211);
     margin: 20px 50px 10px 0px;
-    padding: 20px 7px 11px 13px ;
-    border:4px solid firebrick;
-    }
-    
-    .botao{
-        background-color: #00f;
-        padding: 10px;
-        text-decoration: none;
-        color: white;
-        border-radius: 8px;
-        box-shadow: 2px 2px 5px black;
-        text-shadow: 2px 2px 5px black;
-        border: 2px solid magenta
-    }
-    .botao:hover{
-        background-color: black;
-    }
-    
+    padding: 20px 7px 11px 13px;
+    border: 4px solid firebrick;
+}
 
+.botao {
+    background-color: #00f;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid magenta
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.botao:hover {
+    background-color: var(--preto);
+}
